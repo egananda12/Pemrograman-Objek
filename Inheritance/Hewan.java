@@ -3,21 +3,18 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package accesmodifer.package3;
+package Inheritance;
 
 /**
  *
  * @author LENOVO
  */
-public class Perhitungan {
-    public static int nilai = 0;
-    
-    protected static int getNilai() {
-        return nilai;
-    } 
-    
-    Perhitungan() {
-        nilai++;
+public class Hewan {
+    public Hewan(){
+        System.out.println("construct Hewan");
     }
     
+    public void makan(){
+        System.out.println("Hewan sedang makan..");
+    }
 }

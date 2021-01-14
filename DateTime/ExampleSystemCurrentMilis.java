@@ -3,25 +3,21 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package accesmodifer.package1;
-
-import accesmodifer.*;
+package datetime;
 
 /**
  *
  * @author LENOVO
  */
-public class Main {
+public class ExampleSystemCurrentMilis {
 
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        KelasA kelasA = new KelasA();
-        System.out.println(kelasA.functionB());
         
-        System.out.println(kelasA.memberB);
-        System.out.println(kelasA.memberC);
+         long timeNow = System.currentTimeMillis();
+        System.out.println("Waktu sekarang adalah " + timeNow + " milisecond");
         // TODO code application logic here
     }
     
